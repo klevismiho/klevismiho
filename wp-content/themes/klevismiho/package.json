@@ -24,5 +24,7 @@
     "@roots/bud-tailwindcss": "6.20.0",
     "@roots/sage": "6.20.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2"
+  }
 }

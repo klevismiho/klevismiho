@@ -1,0 +1,78 @@
+// Reset styles to ensure consistent rendering across different browsers
+
+// Box-sizing reset
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// Remove margin and padding from all elements
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+// Remove default list styles
+ul,
+ol {
+    list-style: none;
+}
+
+// Remove default spacing for inline elements
+img,
+iframe,
+video,
+audio,
+canvas,
+object,
+embed,
+svg,
+select,
+textarea,
+input[type='file'],
+input[type='radio'],
+input[type='checkbox'],
+input[type='button'],
+input[type='submit'],
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+// Remove default button styles
+button {
+    background: transparent;
+    cursor: pointer;
+}
+
+// Remove default focus styles
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+// Set base font size and line height
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+// Additional resets can be added as needed

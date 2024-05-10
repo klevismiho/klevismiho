@@ -1,0 +1,31 @@
+.section-about {
+    padding: 120px 0;
+    .section-title {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        text-align: center;
+        span {
+            display: inline-block;
+            padding: 0.2rem 2rem;
+            background-color: $gray-light;
+            font-weight: normal;
+            border-radius: 15px;
+        }
+    }
+    .container {
+        @include breakpoint(small) {
+            display: flex;
+            gap: 120px;
+            align-items: center;
+        }
+    }
+    .about-content {
+        width: 50%;
+    }
+    .about-image {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
