@@ -16,9 +16,11 @@
         text-align: center;
     }
     .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        gap: 30px;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         margin-top: 2rem;
         .skill {
             text-align: center;

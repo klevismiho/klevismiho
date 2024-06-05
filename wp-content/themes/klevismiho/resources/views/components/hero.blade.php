@@ -2,7 +2,7 @@
     <div class="container">
         <div class="hero-content">
             <h1>Hi, I'm Klevis</h1>
-            <p>I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
+            <p>A SEO focused full stack Wordpress developer with over 14 years experience in frontend and backend coding languages, development frameworks and third-party libraries and have familiarity with various content management systems.</p>
             <p>Tirana, Albania</p>
         </div>
         <div class="hero-image">

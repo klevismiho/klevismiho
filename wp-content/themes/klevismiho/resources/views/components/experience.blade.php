@@ -1,7 +1,7 @@
 <section class="section-experience">
     <div class="container">
         <h2 class="section-title">
-            <span>Work experience</span>
+            <span>Experience</span>
         </h2>
         <p class="section-description">Full time work experience:</p>
         <div class="experience-list">

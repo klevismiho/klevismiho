@@ -17,8 +17,9 @@
     }
     .member-grid {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
         gap: 60px;
+        justify-content: center;
         margin-top: 2rem;
         .skill {
             text-align: center;

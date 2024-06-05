@@ -8,15 +8,13 @@
         </div>
         <div class="about-content">
             <h3>Curious about me? Here you have it:</h3>
-            <p>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>
-            <p>I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.</p>
-            <p>I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.</p>
-            <p>When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.</p>
-            <p>Finally, some quick bits about me.</p>
-            <ul>
-                <li>B.E. in Computer Engineering</li>
-                <li>Full time freelancer</li>
-            </ul>
+            <p>Based in Tirana, Albania, I specialize in creating visually striking and highly functional websites using WordPress and other content management systems. My expertise includes eCommerce development, custom theme creation, performance optimization, and SEO best practices.</p>
+
+            <p>Throughout my career, I have demonstrated my ability to lead development teams, collaborate with designers, and translate complex design concepts into pixel-perfect, user-friendly web experiences. I have worked on high-profile projects and have a strong background in utilizing frameworks such as React and Next.js to build responsive and interactive user interfaces.</p>
+
+            <p>In my professional journey, I have held significant roles such as Senior WordPress Developer at Toptal, Teamway, and Arc, and CTO at TOK / Digital Agency in Tirana. I have also contributed to major projects for companies like Better Collective and Teknicks, focusing on custom WordPress development, performance optimization, and high-converting landing page creation.</p>
+
+            <p>I hold a Master of Science in Computer Science from the University of Tirana, which complements my strong technical skills. I am passionate about writing clean, maintainable code and staying up-to-date with the latest industry trends and technologies. Fluent in English and with a good command of German, I am a versatile and valuable asset in any development team.</p>
         </div>
     </div>
 </section>
