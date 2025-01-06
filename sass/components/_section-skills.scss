@@ -1,0 +1,35 @@
+.section-skills {
+    padding: 120px 0;
+    .section-title {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        text-align: center;
+        span {
+            display: inline-block;
+            padding: 0.2rem 2rem;
+            background-color: $gray-light;
+            font-weight: normal;
+            border-radius: 15px;
+        }
+    }
+    .section-description {
+        text-align: center;
+    }
+    .skills-grid {
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        .skill {
+            text-align: center;
+            img {
+                height: 60px;
+            }
+            .skill-name {
+                margin-top: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.section-work {
+    padding: 3rem 0;
+    .section-title {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        text-align: center;
+        span {
+            display: inline-block;
+            padding: 0.2rem 2rem;
+            background-color: $gray-light;
+            font-weight: normal;
+            border-radius: 15px;
+        }
+    }
+    .section-description {
+        text-align: center;
+    }
+    .work-list {
+        .item {
+            display: flex;
+            margin-bottom: 2rem;
+            background-color: $white;
+            box-shadow: 0 0 10px rgba($black, 0.08);
+            .item-media {
+                display: flex;
+                width: 50%;
+                padding: 2rem;
+                align-items: center;
+                background-color: rgba($gray, 0.05);
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                video {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .item-description {
+                width: 50%;
+                padding: 2rem;
+            }
+            .work-skills {
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-top: 1rem;
+                font-size: 0.8rem;
+                .skill {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                }
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

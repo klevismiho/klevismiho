@@ -1,0 +1,22 @@
+.section-hero {
+    padding: 120px 0;
+    .container {
+        @include breakpoint(small) {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .hero-content {
+        width: 60%;
+    }
+    .hero-image {
+        width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+}

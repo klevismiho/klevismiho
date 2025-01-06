@@ -1,0 +1,15 @@
+.section-get-in-touch {
+    padding: 120px 0;
+    .section-title {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        text-align: center;
+        span {
+            display: inline-block;
+            padding: 0.2rem 2rem;
+            background-color: $gray-light;
+            font-weight: normal;
+            border-radius: 15px;
+        }
+    }
+}
