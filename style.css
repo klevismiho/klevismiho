@@ -631,6 +631,39 @@ textarea {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
+.header {
+	padding: 15px 0;
+}
+
+@media (min-width: 800px) {
+	.header .container {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.header .logo {
+	font-weight: bold;
+	font-size: 42px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header nav {
+	margin-left: auto;
+}
+
+.header nav ul {
+	display: flex;
+	gap: 2rem;
+	list-style: none;
+}
+
+.header nav a {
+	color: #4b5563;
+	text-decoration: none;
+}
+
 .section-about {
 	padding: 120px 0;
 }
@@ -804,6 +837,49 @@ textarea {
 }
 
 .section-member .member-grid .skill .skill-name {
+	margin-top: 5px;
+}
+
+.section-skills {
+	padding: 120px 0;
+}
+
+.section-skills .section-title {
+	margin-bottom: 2rem;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.section-skills .section-title span {
+	display: inline-block;
+	padding: 0.2rem 2rem;
+	background-color: #e5e7eb;
+	font-weight: normal;
+	border-radius: 15px;
+}
+
+.section-skills .section-description {
+	text-align: center;
+}
+
+.section-skills .skills-grid {
+	display: flex;
+	gap: 60px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.section-skills .skills-grid .skill {
+	text-align: center;
+}
+
+.section-skills .skills-grid .skill img {
+	height: 60px;
+}
+
+.section-skills .skills-grid .skill .skill-name {
 	margin-top: 5px;
 }
 

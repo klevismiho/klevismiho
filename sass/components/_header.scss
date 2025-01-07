@@ -1,0 +1,27 @@
+.header {
+    padding: 15px 0;
+    .container {
+        @include breakpoint(small) {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .logo {
+        font-weight: bold;
+        font-size: 42px;
+        color: $black;
+        text-decoration: none;
+    }
+    nav {
+        margin-left: auto;
+        ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        a {
+            color: $gray;
+            text-decoration: none;
+        }
+    }
+}
