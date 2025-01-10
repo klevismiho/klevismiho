@@ -664,6 +664,13 @@ textarea {
 	text-decoration: none;
 }
 
+.site-footer {
+	padding: 1rem;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+
 .section-about {
 	padding: 120px 0;
 }
@@ -735,7 +742,7 @@ textarea {
 }
 
 .section-experience .experience-list .item .item-image {
-	width: 20%;
+	width: 100px;
 }
 
 .section-experience .experience-list .item .item-image img {
@@ -747,12 +754,16 @@ textarea {
 	margin-top: 2rem;
 }
 
-.section-experience .experience-list .item .item-meta {
-	width: 35%;
+@media (min-width: 800px) {
+	.section-experience .experience-list .item .item-meta {
+		width: 300px;
+	}
 }
 
 .section-get-in-touch {
 	padding: 120px 0;
+	background-color: rgba(229, 231, 235, 0.3);
+	text-align: center;
 }
 
 .section-get-in-touch .section-title {
@@ -764,9 +775,16 @@ textarea {
 .section-get-in-touch .section-title span {
 	display: inline-block;
 	padding: 0.2rem 2rem;
-	background-color: #e5e7eb;
+	background-color: #000;
 	font-weight: normal;
+	color: #fff;
 	border-radius: 15px;
+}
+
+.section-get-in-touch ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .section-hero {
