@@ -34,8 +34,8 @@
                 <a class="logo" href="/">
                     Klevis Miho
                 </a>
-                <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary') }}">
-                    <?php wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'nav']) ?>
-                </nav>
+                <!-- <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary') }}">
+                    <?php //wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'nav']) ?>
+                </nav> -->
             </div>
         </header>

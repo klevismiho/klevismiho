@@ -90,6 +90,8 @@
                     $company_description = get_post_meta(get_the_ID(), 'experience_company_description', true);
                     $start_date = get_post_meta(get_the_ID(), 'experience_start_date', true);
                     $end_date = get_post_meta(get_the_ID(), 'experience_end_date', true);
+                    $start_date_formatted = (new DateTime($start_date))->format('M Y');
+                    $end_date_formatted = (new DateTime($end_date))->format('M Y');
                     ?>
 
                     <div class="item">
@@ -109,7 +111,7 @@
                             </div>
                         </div>
                         <div class="item-meta">
-                            <?php echo $start_date . ' - ' . $end_date; ?>
+                            <?php echo $start_date_formatted . ' - ' . $end_date_formatted; ?>
                         </div>
                     </div>
             <?php
@@ -136,7 +138,10 @@
             ?>
             <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 
-                <?php $work_video = get_post_meta(get_the_ID(), 'work_video', true); ?>
+                <?php 
+                $work_video = get_post_meta(get_the_ID(), 'work_video', true);
+                $company_description = get_post_meta( get_the_ID(), 'company_description', true );
+                ?>
 
                     <div class="item">
                         <div class="item-media">
@@ -147,8 +152,8 @@
                             <?php endif; ?>
                         </div>
                         <div class="item-description">
-                            <h3><?php the_title(); ?></h3>
-                            <?php the_content(); ?>
+                            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                            <?php echo '<p>' . $company_description . '</p>'; ?>
                             <?php
                             $skills = get_post_meta(get_the_ID(), 'work_skills', true);
                             if (!empty($skills)) {

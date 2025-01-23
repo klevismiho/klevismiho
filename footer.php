@@ -13,7 +13,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			Powered by Wordpress. Theme done by me with custom Gutenberg blocks.
+			Powered by Wordpress. Theme done by me, Klevis Miho.
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

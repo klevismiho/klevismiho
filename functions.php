@@ -163,3 +163,8 @@ require get_template_directory() . '/inc/template-tags.php';
  * Functions which enhance the theme by hooking into WordPress.
  */
 require get_template_directory() . '/inc/template-functions.php';
+
+/**
+ * Meta boxes
+ */
+require get_template_directory() . '/inc/meta-boxes.php';
