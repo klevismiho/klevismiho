@@ -8,7 +8,8 @@
         span {
             display: inline-block;
             padding: 0.2rem 2rem;
-            background-color: $gray-light;
+            background-color: $black;
+            color: $white;
             font-weight: normal;
             border-radius: 15px;
         }
@@ -19,11 +20,15 @@
     .experience-list {
         .item {
             display: flex;
-            gap: 2rem;
+            flex-direction: column;
             margin-bottom: 2rem;
             padding: 2rem;
             background-color: $white;
             box-shadow: 0 0 10px rgba($black, 0.02);
+            @include breakpoint(small) {
+                flex-direction: row;
+                gap: 2rem;
+            }
             .item-image {
                 width: 100px;
                 img {

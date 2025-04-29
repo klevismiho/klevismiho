@@ -4,8 +4,7 @@
     <div class="container">
         <div class="hero-content">
             <h1>Hi, I'm Klevis</h1>
-            <p>A SEO focused full stack Wordpress developer with over 14 years experience in frontend and backend coding languages, development frameworks and third-party libraries and have familiarity with various content management systems.</p>
-            <p>Tirana, Albania</p>
+            <p>With 15 years of industry expertise, Klevis transforms business visions into high-performing WordPress websites, combining deep technical expertise with strategic digital solutions. Throughout his extensive career across local and remote digital agencies, programming firms, and SEO consultancies, he brings enterprise-level knowledge to every project. As a seasoned full-stack WordPress specialist, he excels at converting Figma designs into pixel-perfect WordPress themes, crafting custom solutions from scratch and expertly navigating existing projects. His comprehensive skill set spans advanced frontend development, e-commerce integration, and technical SEO, complemented by a proven track record of accelerating site performance. Whether collaborating with international development teams or leading local agency projects, Klevis brings both technical precision and strategic insight to every engagement, ensuring clients receive solutions that exceed expectations..</p>
         </div>
         <div class="hero-image">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/klevismiho.jpeg" alt="Klevis Miho">

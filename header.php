@@ -22,6 +22,18 @@
     <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/apple-touch-icon.png">
     <?php wp_head(); ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JP6D953NZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JP6D953NZ');
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -35,7 +47,8 @@
                     Klevis Miho
                 </a>
                 <!-- <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary') }}">
-                    <?php //wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'nav']) ?>
+                    <?php //wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'nav']) 
+                    ?>
                 </nav> -->
             </div>
         </header>
