@@ -1,0 +1,43 @@
+.section-services {
+    padding: 120px 0;
+
+    .section-title {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        text-align: center;
+
+        span {
+            display: inline-block;
+            padding: 0.2rem 2rem;
+            background-color: $black;
+            color: $white;
+            font-weight: normal;
+            border-radius: 15px;
+        }
+    }
+
+    .section-description {
+        text-align: center;
+    }
+
+    .services-list {
+        display: grid;
+        gap: 30px;
+
+        @include breakpoint(small) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .item {
+            padding: 2rem;
+            background-color: rgba($gray, 0.03);
+            box-shadow: 0 0 10px rgba($black, 0.02);
+            h3 {
+                margin-top: 0;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

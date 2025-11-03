@@ -103,7 +103,7 @@ function km_register_post_types()
         'label'                 => __('Work', 'klevismiho'),
         'description'           => __('Post Type Description', 'klevismiho'),
         'labels'                => $work_labels,
-        'supports'              => array('title', 'thumbnail', 'editor'),
+        'supports'              => array('title', 'thumbnail', 'editor', 'excerpt'),
         'public'                => true,
         'show_in_rest'          => true,
     );

@@ -38,17 +38,10 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <div id="page" class="site">
-        <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'klevismiho'); ?></a>
 
-        <header class="header">
-            <div class="container">
-                <a class="logo" href="/">
-                    Klevis Miho
-                </a>
-                <!-- <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary') }}">
-                    <?php //wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'nav']) 
-                    ?>
-                </nav> -->
-            </div>
-        </header>
+    <a class="skip-to-content" href="#main-content">Skip to content</a>
+
+    <?php
+    // Load your FSE header template part
+    block_template_part('header');
+    ?>

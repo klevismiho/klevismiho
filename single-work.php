@@ -16,8 +16,16 @@ get_header();
             <?php
             while ( have_posts() ) :
                 the_post();
-
-                get_template_part( 'template-parts/content', get_post_type() );
+                the_post_thumbnail(); 
+                $company_description = get_post_meta( get_the_ID(), 'company_description', true );
+                ?>
+                <header class="entry-header">
+                    <h1 class="entry-title"><?php the_title(); ?></h1>
+                </header>
+                <h2>Company Overview</h2>
+                <p><?php echo esc_html( $company_description ); ?></p>
+                <?php
+                the_content();
 
             endwhile; // End of the loop.
             ?>
