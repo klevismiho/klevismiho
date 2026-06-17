@@ -54,6 +54,7 @@ function km_register_post_types()
         'labels'                => $skill_labels,
         'supports'              => array('title', 'thumbnail', 'editor'),
         'public'                => true,
+        'publicly_queryable'    => false
     );
 
     register_post_type('skill', $skill_args);

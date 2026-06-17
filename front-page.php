@@ -6,10 +6,16 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Hi, I'm Klevis</h1>
-                <p>I've spent 15 years building WordPress websites that work. I take your designs and turn them into fast, functional sites that people can actually use.
-                    My work includes converting Figma mockups to WordPress themes, fixing slow e-commerce sites, and building custom functionality. I make sure every site loads quickly, ranks well in search engines, and works for users with disabilities.
-                    I've worked with startups and large companies, led remote development teams, and handled projects across different time zones. When clients see their sites finally perform the way they need them to, that's what makes the work worthwhile.
-                    If you need a WordPress site built right, or want to fix problems with your current one, I can help.</p>
+                <p>I've been building WordPress sites for 15 years, mostly for organizations where the stakes are high and the requirements are complex.</p>
+                <p>I architect WordPress environments for organizations that demand more: multisite networks, headless implementations, custom REST API integrations, and high-availability infrastructure built to handle real traffic. When legacy systems need modernizing or a platform is buckling under growth, that's where I come in.</p>
+                <p>My work spans the full stack — from translating complex Figma designs into pixel-perfect, accessible themes, to optimizing database queries and server configurations that shave seconds off load times. I've led distributed engineering teams, managed deployments across multiple time zones, and worked directly with enterprise stakeholders to align technical decisions with business goals.</p>
+                <div class="hero-certifications">
+                    <a href="https://automattic.credential.net/58e1443e-0dd1-49c4-a179-e076628e5c9a#acc.hDNR4YMG" target="_blank">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/advanced-wordpress-developer.png" alt="Klevis Miho Advanced Professional WordPress Developer" />
+                    </a>
+                    <a href="https://www.credly.com/badges/6d27f144-208c-49c4-ac35-897e71123812/public_url" target="_blank"><img src="https://klevismiho.com/wp-content/themes/klevismiho/images/member/iaap-professional-member.png" width="200" height="200" alt="IAAP Professional Member"></a>
+                    <a href="https://klevismiho.com/wp-content/themes/klevismiho/images/member/accesstia-accessibility-fundamentials.pdf" target="_blank"><img src="https://klevismiho.com/wp-content/themes/klevismiho/images/member/accesstia-accessibility.webp" width="200" height="200" alt="IAAP Professional Member"></a>
+                </div>
             </div>
             <div class="hero-image">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/klevismiho.webp" alt="Klevis Miho" width="500" height="500">
@@ -25,8 +31,10 @@
         <div class="member-grid">
             <?php
             $args = array(
-                'post_type' => 'member',
+                'order' => 'ASC',
                 'posts_per_page' => 10,
+                'post_type' => 'member',
+                'orderby' => 'menu_order'
             );
             $skills_query = new WP_Query($args);
             if ($skills_query->have_posts()) :
@@ -198,7 +206,7 @@
             <h2 class="section-title">
                 <span>Experience</span>
             </h2>
-            <p class="section-description">Work experience:</p>
+            <p class="section-description">Work experience: <a href="https://www.linkedin.com/in/klevis-miho-74a29211/" target="_blank" style="text-decoration:underline;">Linkedin</a></p>
             <div class="experience-list">
                 <?php
                 $args = array(
