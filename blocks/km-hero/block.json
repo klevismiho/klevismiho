@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "km/hero",
+  "title": "KM Hero",
+  "category": "theme",
+  "textdomain": "klevismiho",
+  "render": "file:./render.php",
+  "supports": {
+    "html": false,
+    "inserter": true
+  }
+}

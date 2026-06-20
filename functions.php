@@ -168,3 +168,31 @@ require get_template_directory() . '/inc/template-functions.php';
  * Meta boxes
  */
 require get_template_directory() . '/inc/meta-boxes.php';
+
+
+/**
+ * Register all KM custom blocks.
+ * Add this to your theme's functions.php
+ */
+function km_register_blocks() {
+    $blocks = array(
+        'km-hero',
+        'km-platforms',
+        'km-skills',
+        'km-certifications',
+        'km-services',
+        'km-experience',
+        'km-projects',
+    );
+ 
+    foreach ( $blocks as $block ) {
+        register_block_type( get_template_directory() . '/blocks/' . $block );
+    }
+}
+add_action( 'init', 'km_register_blocks' );
+
+
+add_action( 'wp_footer', function() {
+    $block = WP_Block_Type_Registry::get_instance()->get_registered( 'km/hero' );
+    echo '<!-- km/hero registered: ' . ( $block ? 'YES' : 'NO' ) . ' -->';
+} );
